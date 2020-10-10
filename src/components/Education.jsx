@@ -7,7 +7,7 @@ const Education = () => {
     {
       organization: 'JR Academy',
       yearStart: 2019,
-      yearEnd: 2020,
+      yearEnd: 2019,
       title: 'Full-Stack Web Development Training Course',
     },
     {

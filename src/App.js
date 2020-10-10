@@ -4,6 +4,7 @@ import Home from './components/Home'
 import Education from './components/Education'
 import Experience from './components/Experience'
 import Skills from './components/Skills'
+import Projects from './components/Projects'
 import { Container } from '@material-ui/core'
 import './styles.css'
 
@@ -19,6 +20,7 @@ function App() {
           {selectedTab === 1 && <Skills />}
           {selectedTab === 2 && <Experience />}
           {selectedTab === 3 && <Education />}
+          {selectedTab === 4 && <Projects />}
         </Container>
       </main>
 

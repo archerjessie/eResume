@@ -24,7 +24,7 @@ const ResumeCard = (props) => {
     <Grid container className="history-card">
       <Hidden xsDown>
         <Grid item xs={2} className="timeline-left">
-          <span>{yearEnd}</span>
+          <span>{yearEnd===0? "Now": yearEnd}</span>
           <input type="radio" checked readOnly></input>
         </Grid>
         <Grid item xs={2} className="timeline-right"></Grid>
@@ -35,7 +35,7 @@ const ResumeCard = (props) => {
             {organization}
           </Typography>
           <Typography className={classes.pos} color="textSecondary">
-            <span className="experience__year">{`${yearStart}-${yearEnd}`}</span>
+            <span className="experience__year">{`${yearStart}-${yearEnd===0? "Current": yearEnd}`}</span>
             &nbsp;
             <i className="experience__divider"></i>
             &nbsp;

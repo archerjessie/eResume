@@ -51,6 +51,7 @@ const HeaderBar = (props) => {
                 <Tab label="Skills" />
                 <Tab label="Experience" />
                 <Tab label="Education" />
+                <Tab label="Project" />
               </Tabs>
             </Hidden>
             <Hidden smUp>

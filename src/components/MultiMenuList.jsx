@@ -4,7 +4,7 @@ import Menu from '@material-ui/core/Menu'
 import MenuItem from '@material-ui/core/MenuItem'
 import MenuIcon from '@material-ui/icons/Menu'
 
-const options = ['HOME', 'SKILLS', 'EXPERIENCE', 'EDUCATION']
+const options = ['HOME', 'SKILLS', 'EXPERIENCE', 'EDUCATION', 'PROJECTS']
 const ITEM_HEIGHT = 48
 
 export default function MultiMenuList(props) {
@@ -42,7 +42,7 @@ export default function MultiMenuList(props) {
         onClose={handleClose}
         PaperProps={{
           style: {
-            maxHeight: ITEM_HEIGHT * 4.5,
+            maxHeight: ITEM_HEIGHT * 5.5,
             width: '20ch',
           },
         }}

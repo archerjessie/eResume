@@ -4,6 +4,7 @@ import SwipeableViews from 'react-swipeable-views'
 import { autoPlay } from 'react-swipeable-views-utils'
 import { loadCSS } from 'fg-loadcss'
 import shortid from 'shortid'
+import personalPhoto from '../assets/jessie.jpeg'
 
 const useStyles = makeStyles((theme) => ({
   icon: {
@@ -82,7 +83,7 @@ const Home = () => {
           </Grid>
           <Hidden xsDown>
             <Grid item sm={4} className="homepage__avatar">
-              <img src="/img/jessie.jpeg" alt="Profile Avatar" />
+              <img src={personalPhoto} alt="Profile Avatar" />
             </Grid>
           </Hidden>
         </Grid>
@@ -92,9 +93,7 @@ const Home = () => {
               About Me
             </Typography>
             <Typography paragraph className="aboutme__title">
-              Bright and optimistic, Tifa always cheers up the others when
-              they're down. But don't let her looks fool you, she can decimate
-              almost any enemy with her fists.
+            With a mixed background, I have demonstrated my capabilities to succeed in various areas. Now I am looking for my next career challenge.
             </Typography>
           </Grid>
           <Grid item xs={12} md={5} className="personal__detail">
