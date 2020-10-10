@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "747feb87782af93ae4c830185d816e07",
+    "revision": "72c8e7bc67aad5839e03f23e42eb98d3",
     "url": "/eResume/index.html"
   },
   {
-    "revision": "c49b950f1082136416eb",
+    "revision": "2adb6a58387bc4b1e97c",
     "url": "/eResume/static/css/main.6bbba285.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/eResume/static/js/2.186e9837.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c49b950f1082136416eb",
-    "url": "/eResume/static/js/main.699958ba.chunk.js"
+    "revision": "2adb6a58387bc4b1e97c",
+    "url": "/eResume/static/js/main.52aa0f55.chunk.js"
   },
   {
     "revision": "ab8a955b57cf6d1e0be4",
