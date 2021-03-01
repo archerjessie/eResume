@@ -5,9 +5,17 @@ import shortid from 'shortid'
 const Experience = () => {
   const workHistory = [
     {
+      organization: 'Carsales.com',
+      yearStart: 2020,
+      yearEnd: 2021,
+      title: 'Junior Web Developer',
+      detail:
+        'Working as a fullstack developer in trade tribe under a three month fix-term contract. buzz words: React, Dotnet Core, REST API, AWS, postgreSQL, Jenkins, TDD, Github',
+    },
+    {
       organization: '2Cloud Technology',
       yearStart: 2020,
-      yearEnd: 0,
+      yearEnd: 2020,
       title: 'Junior Web Developer',
       detail:
         'Consulting company specialized in building cloud-based applications. Worked in an Agile team, I developed a React applications for client. Some tech buzz words: React, REST API, S3, EC2, SQL, CI/CD, TDD, Git',
@@ -27,15 +35,8 @@ const Experience = () => {
       title: 'Sales Consultant',
       detail:
         'Meet Sales TargetResponsible for delivery Making follow- up phone calls Assist in selling after - marketing products and finance Support other departments in demand Perform general administrative duties and day - to - day office tasks',
-    },
-    {
-      organization: 'Lexus',
-      yearStart: 2016,
-      yearEnd: 2016,
-      title: 'Cadet',
-      detail:
-        'Meet Sales TargetResponsible for delivery Making follow- up phone calls Assist in selling after - marketing products and finance Support other departments in demand Perform general administrative duties and day - to - day office tasks',
     }
+  
   ]
 
   return (
